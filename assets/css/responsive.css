@@ -1,0 +1,31 @@
+@media (max-width: 499px) {
+    .list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .best-selling {
+        grid-template-columns: 1fr;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .header-contents > .cats, 
+    .header-contents > .filter, 
+    .header-contents > .heart, 
+    .header-contents > .cart,
+    .header-contents > .user {
+        display: none !important;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .list {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .best-selling {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
