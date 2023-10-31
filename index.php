@@ -70,7 +70,7 @@
         <div class="filter input-group">
             <input type="text" class="form-control" placeholder="Search Here" aria-label="Search Here" aria-describedby="button-addon2">
             <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fa fa-magnifying-glass" style="color:black !important"></i></button>
+            <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
             </div>
         </div>
         <div class="d-flex justify-content-between pt-4">
